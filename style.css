@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container
+{
+    width: 100%;
+    padding: 0 100px;
+    /* border: 1px solid yellow; */
+}
+
+.row
+{
+    display: flex;
+}
+
+.jct
+{
+    justify-content: space-between;
+}
+
+.alc
+{
+    align-items: center;
+}
+
+.col-25
+{
+    width: 25%;
+}
+
+.col-40
+{
+    width: 40%;
+}
+
+.col-70
+{
+    width: 70%;
+}
+
+
+/* ---------------------------------------- */
+
+#sec-one
+{
+    padding: 50px 0 0 0;
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.85) 10%, rgba(0, 0, 0, 0.85) 30%, rgba(0, 0, 0, 0.85) 50%), url("./images/Texture.png");
+    position: relative;
+    /* 
+    bg1 => background-color: #181818; z1
+    bg2 => background-color: #15f1ff z2;
+    bg3 => texture z3;
+    */
+}
+
+header
+{
+    width: 100%;
+    padding: 0 50px;
+}
+
+nav
+{
+    width: 100%;
+    background-color: #11f2ff;
+    padding: 25px 0;
+}
+
+.nav-list
+{
+    margin: 0 auto;
+}
+
+.nav-list li
+{
+    display: inline;
+    padding: 0 55px; 
+    font-weight: 600;
+}
+
+.nav-list li:nth-child(1)
+{
+    padding: 0 55px 0 0;
+}
+
+.yourLogo
+{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.sec-title
+{
+    color:#ffffff;
+    font-size: 40px;
+    /* margin: 0 auto; */
+    text-align: center;
+    margin: 100px 0 0 0;
+}
+
+.signIn
+{
+    display: block;
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 100px auto;
+
+}
+
+.dotsBlock
+{
+    text-align: center;
+}
+
+.dotsBlock i
+{
+    color:#11f2ff;
+    font-size: 10px;
+}
+
+.whiteOne
+{
+    color: white !important;
+}
+
+.bottomPart
+{
+    position: relative;
+    width: 100%;
+    background-color: #11f2ff;
+    padding: 25px 0 20px 0;
+}
+
+.sec-one-text1
+{
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.text2
+{
+    margin: 20px auto;
+}
+
+
+.sec-one-text2, .bigNum
+{
+    color: #1c1c1c;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.bigNum
+{
+    font-size: 70px;
+    letter-spacing: 8px;
+}
+
+
+.threeBarsL, .threeBarsR, .rArrow, .lArrow
+{
+    position: absolute;
+}
+
+.threeBarsL, .threeBarsR
+{
+    transform: scale(0.8);
+}
+
+.threeBarsL
+{
+    top: 50px;
+    left: -55px;
+}
+
+.threeBarsR
+{
+    top: 50px;
+    right: -55px;
+}
+
+
+.sec-one-img1
+{
+    width: 100%;
+}
+
+.sec-one-img2
+{
+    transform: scaleX(1.12);
+    margin: 70px 0 -40px 0;
+}
+
+
+
+
+
+
+
+
+
+
