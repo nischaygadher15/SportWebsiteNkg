@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
 
 *
 {
@@ -7,6 +9,11 @@
     padding: 0;
     box-sizing:border-box;
     font-family: "Montserrat", sans-serif;
+}
+
+body
+{
+    overflow-x: hidden;
 }
 
 .container
@@ -39,6 +46,11 @@
 .col-40
 {
     width: 40%;
+}
+
+.col-50
+{
+    width: 50%;
 }
 
 .col-70
@@ -251,6 +263,91 @@ nav
 }
 
 
+#sec-two
+{
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.85) 10%, rgba(0, 0, 0, 0.85) 30%, rgba(0, 0, 0, 0.85) 50%), url("./images/Texture.png"); 
+    padding: 100px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
 
+.sec-two-main
+{
+    padding: 100px 0;
+}
+
+.sec-two-content
+{
+    padding: 50px 0;
+}
+
+.sec-two-img
+{
+    /* border: 1px solid red; */
+    transform: scale(0.9);
+    position: absolute;
+    top: 150px;
+    left: -180px;
+}
+
+
+
+.rArrow1, .lArrow1, .threeBarsL1, .threeBarsR1
+{
+    position: absolute;
+}
+
+
+.sec-two-text
+{
+    float: right;
+    /* border: 1px solid red; */
+    padding: 80px 0 0 0;
+}
+
+
+.sec-two-title
+{
+    font-family: "Alfa Slab One";
+    color:#11f2ff;
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    text-transform:uppercase;
+    text-align: justify;
+    margin: 10px 0;
+}
+
+.sec-two-textPara
+{
+    color:#ffffff;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.signIn2
+{
+    background-color: #11f2ff;
+    padding: 10px 25px;
+    border: none;
+    float:left;
+    margin: 40px 0 0 0;
+}
+
+
+
+.threeBarsL1, .threeBarsR1
+{
+    transform: scale(0.8);
+    color:#11f2ff;
+}
+
+.threeBarsL1
+{
+    top: 50px;
+    left: -55px;
+}
 
 
