@@ -314,6 +314,10 @@ section two starts here
     position: absolute;
 }
 
+/* .sec-two-text p{ 
+   text-align: justify;
+   color: white;
+} */
 
 .sec-two-text, .sec-three-text 
 {
@@ -484,9 +488,14 @@ section three starts here
 }
 
 /* 
+---------------------------------------------
 section two ends header
+---------------------------------------------
 
+
+---------------------------------------------
 section three starts here 
+---------------------------------------------
 */
 
 .sec-four
@@ -499,10 +508,6 @@ section three starts here
     padding: 100px 0;
 }
 
-.sec-four-main
-{
-    /* padding: 100px 0; */
-}
 
 
 .sec-four-textBlk
@@ -542,7 +547,7 @@ section three starts here
     position: absolute;
     bottom: -13px;
     width: 100%; 
-    transform: scale(1.2)   
+    transform: scale(1.2);  
 }
 
 .sec-four-img1
@@ -590,4 +595,106 @@ section three starts here
 {
     top: 150px;
     right: 50px;
+}
+
+
+/* 
+---------------------------------------------
+section Four ends header
+---------------------------------------------
+
+
+---------------------------------------------
+section Five starts here 
+---------------------------------------------
+*/
+
+.sec-five
+{
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.85) 10%, rgba(0, 0, 0, 0.85) 30%, rgba(0, 0, 0, 0.85) 50%), url("./images/Texture.png"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 100px 0;
+}
+
+.sec-5-img
+{
+    padding: 100px 0;
+    margin: 100px 0;
+}
+
+.sec-five-imgBlk
+{
+    /* border: 1px solid red; */
+    padding: 100px 0;
+}
+
+.sec-five-img
+{
+    transform: scale(1);
+    position: absolute;
+    bottom: -73px;
+    left: -150px;
+    z-index: 5;
+}
+
+.sec-five-textBlk
+{
+    /* z-index: 5; */
+    position: relative; 
+}
+
+.sec-five-titleBlk
+{
+    margin: 0 0 30px 0;
+    /* border: 1px solid red; */
+}
+
+.sec-five-title
+{
+    font-family: "Alfa Slab One";
+    color:#ffffff;
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    text-transform:uppercase;
+    text-align: justify;
+    margin: 100px 0 100px 0;
+}
+
+.sec-five-para
+{
+    color: #1d1d1d;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 30px;
+    padding: 50px 0 0 0;
+}
+
+.signIn
+{
+    margin: 30px 0;
+}
+
+.boxBlock
+{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left:0;
+    /* border: 1px solid red; */
+    padding: 100px 0;
+    background-color:#11f2ff;
+    z-index: 0;
+}
+
+.blueBox
+{
+    padding: 100px 0;
+}
+
+.blueBox2
+{
+    padding: 40px 0;
 }
