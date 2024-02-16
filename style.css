@@ -43,10 +43,17 @@ body
     width: 25%;
 }
 
+
 .col-40
 {
     width: 40%;
 }
+
+.col-45
+{
+    width: 45%;
+}
+
 
 .col-50
 {
@@ -474,4 +481,113 @@ section three starts here
 {
     bottom: 100px;
     left: 450px;
+}
+
+/* 
+section two ends header
+
+section three starts here 
+*/
+
+.sec-four
+{
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.85) 10%, rgba(0, 0, 0, 0.85) 30%, rgba(0, 0, 0, 0.85) 50%), url("./images/Texture.png"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* border: 1px solid red;; */
+    padding: 100px 0;
+}
+
+.sec-four-main
+{
+    /* padding: 100px 0; */
+}
+
+
+.sec-four-textBlk
+{
+    margin: 0 auto;
+}
+
+.sec-four-para, .sec-four-title
+{
+    text-align: center;
+}
+
+.sec-four-imgBlk
+{
+    /* margin: 50px 0; */
+    padding: 100px 0 0 0;
+}
+
+.sec-img-tile
+{
+    background-color: #11f2ff;
+    position: relative;
+    padding: 100px 0;
+    margin: 100px 0;
+    z-index: 1;
+}
+
+.imgBlk
+{
+    padding: 100px ;
+    margin: 25px 0;
+}
+
+.sec-four-img1, .sec-four-img2
+{
+    /* border: 1px solid red; */
+    position: absolute;
+    bottom: -13px;
+    width: 100%; 
+    transform: scale(1.2)   
+}
+
+.sec-four-img1
+{
+    bottom: 7px;
+    left: -25px;
+    transform:scale(1.28)
+}
+
+.sec-four-img2
+{
+    right: 25px;
+}
+
+.threeBarsL3, .threeBarsR3, .upArrowBlue, .downArrow
+{
+    position: absolute;
+    top: 0;
+}
+
+
+.threeBarsL3
+{
+    top: 530px;
+    left: 50px;
+    z-index: 0;
+}
+
+
+.threeBarsR3
+{
+    top: 790px;
+    right: 50px;
+    z-index: 0;
+}
+
+.upArrowBlue
+{
+    top: 150px;
+    left: 50px;
+}
+
+
+.downArrow
+{
+    top: 150px;
+    right: 50px;
 }
