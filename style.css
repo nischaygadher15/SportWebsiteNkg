@@ -53,6 +53,11 @@ body
     width: 50%;
 }
 
+.col-60
+{
+    width: 55%;
+}
+
 .col-70
 {
     width: 70%;
@@ -61,7 +66,7 @@ body
 
 /* ---------------------------------------- */
 
-#sec-one
+.sec-one
 {
     padding: 50px 0 0 0;
     background: radial-gradient(circle, rgba(0, 0, 0, 0.85) 10%, rgba(0, 0, 0, 0.85) 30%, rgba(0, 0, 0, 0.85) 50%), url("./images/Texture.png");
@@ -261,9 +266,13 @@ nav
     top: 200px;
     right: 50px;
 }
+/* 
+section one ends header
 
+section two starts here 
+*/
 
-#sec-two
+.sec-two
 {
     background: radial-gradient(circle, rgba(0, 0, 0, 0.85) 10%, rgba(0, 0, 0, 0.85) 30%, rgba(0, 0, 0, 0.85) 50%), url("./images/Texture.png"); 
     padding: 100px 0;
@@ -279,7 +288,7 @@ nav
 
 .sec-two-content
 {
-    padding: 50px 0;
+    padding: 50px 0 100px 0;
 }
 
 .sec-two-img
@@ -299,7 +308,7 @@ nav
 }
 
 
-.sec-two-text
+.sec-two-text, .sec-three-text 
 {
     float: right;
     /* border: 1px solid red; */
@@ -351,3 +360,118 @@ nav
 }
 
 
+.threeBarsR1
+{
+    bottom: 50px;
+    right: -55px;
+}
+
+
+.rArrow1
+{
+    top: 90px;
+    right: 60px;
+}
+
+
+.lArrow1
+{
+    bottom:80px;
+    right: 600px;
+}
+
+/* 
+section two ends header
+
+section three starts here 
+*/
+
+.sec-three
+{
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.85) 10%, rgba(0, 0, 0, 0.85) 30%, rgba(0, 0, 0, 0.85) 50%), url("./images/Texture.png"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* border: 1px solid red;; */
+}
+
+.sec-three-container
+{
+    padding-right: 0;
+}
+
+.sec-three-content
+{
+    flex-direction: row-reverse;
+}
+
+.sec-three-rightBlk
+{
+    margin: 100px 0 100px 0;
+    /* border: 1px solid blue; */
+    background-color: #15f1ff;
+}
+
+.sec-three-imgBlk
+{
+    
+    width: 100%;
+    /* border: 1px solid red; */
+    margin: 0px 80px 0px 0;
+    padding: 70px 0;
+    position: relative;
+}
+
+.sec-three-rect
+{
+    width: 100%; 
+    /* border: 1px solid yellow; */
+    padding: 100px 0;
+    margin: 100px 0px 50px 0;
+}
+
+.sec-three-img
+{
+    transform: scale(1);
+    position: absolute;
+    bottom: -160px;
+    right: -65px;
+}
+
+.sec-three-text
+{
+    width: 35%;
+    padding: 100px 0; 
+    margin: 100px 0;
+}
+
+.sec-three-title
+{
+    letter-spacing: 2px;
+    margin: 50px 0 0 0;
+}
+
+
+.rArrow2, .lArrow2, .threeBarsL2
+{
+    position: absolute;
+}
+
+
+.threeBarsL2
+{
+    top: 280px;
+    left: 600px
+}
+
+.rArrow2
+{
+    top: 100px;
+    left: 100px;
+}
+
+.lArrow2
+{
+    bottom: 100px;
+    left: 450px;
+}
