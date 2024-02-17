@@ -49,6 +49,12 @@ body
 }
 
 
+.col-30
+{
+    width: 30%;
+}
+
+
 .col-40
 {
     width: 40%;
@@ -615,7 +621,7 @@ section Five starts here
 ---------------------------------------------
 */
 
-.sec-five, .sec-six
+.sec-five, .sec-six, .sec-seven
 {
     background: radial-gradient(circle, rgba(0, 0, 0, 0.85) 10%, rgba(0, 0, 0, 0.85) 30%, rgba(0, 0, 0, 0.85) 50%), url("./images/Texture.png"); 
     background-repeat: no-repeat;
@@ -738,10 +744,6 @@ section Six starts here
 ---------------------------------------------
 */
 
-.sec-six
-{
-  /* see above sec-five */
-}
 
 .sec-six-main
 {
@@ -749,11 +751,6 @@ section Six starts here
     position: relative;
 }
 
-.sec-six-imgBlk
-{
-    /* position: relative; */
-    /* border: 1px solid red; */
-}
 
 .sec-six-imgMain
 {
@@ -879,4 +876,107 @@ section Six starts here
     top: 400px;
     right: -20px;
 }
+
+
+/* 
+---------------------------------------------
+section Five ends header
+---------------------------------------------
+
+
+---------------------------------------------
+section Six starts here 
+---------------------------------------------
+*/
+
+
+.sec-seven-title
+{
+    color: #ffffff;
+    font-size: 55px;
+    font-weight: 900;
+    text-align: center;
+}
+
+
+.sec-seven-tileBlk
+{
+    margin: 100px 0;
+}
+
+.sec-seven-tile
+{
+    background-color: #ffffff;
+    padding: 15px;
+}
+
+.sec-seven-img-wrapper1
+{
+    background: url('./images/sec-seven-tile1.png') no-repeat,
+    linear-gradient(#11f2ff,#11f2ff);
+}
+.sec-seven-img-wrapper2
+{
+    background: url('./images/sec-seven-tile2.png') no-repeat,
+    linear-gradient(#11f2ff,#11f2ff);
+}
+.sec-seven-img-wrapper3
+{
+    background: url('./images/sec-seven-tile3.png.png') no-repeat,
+    linear-gradient(#11f2ff,#11f2ff);
+}
+
+
+.sec-seven-img-wrapper1,
+.sec-seven-img-wrapper2,
+.sec-seven-img-wrapper3
+{
+    width: 100%;
+    padding: 100px 0;
+    background-size: 100% 100%;
+    /* border: 1px solid red; */
+}
+
+.sec-seven-img-wrapper2
+{
+    background-size: 80% 100%;
+    background-position: center;
+}
+
+
+.sec-seven-img
+{
+    padding: 70px 0;
+}
+
+
+.sec-seven-tile-title
+{
+    color: #2d2d2d;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: center;
+    margin: 25px 0 0 0;
+}
+
+
+.sec-seven-tile-para
+{
+    text-align: justify;
+    margin: 30px 0;
+}
+
+
+.sec-seven-readMore
+{
+    padding: 5px 10px;
+    background-color: #11f2ff;
+    border: none;
+    display: block;
+    margin: 50px auto;
+
+}
+
+
 
