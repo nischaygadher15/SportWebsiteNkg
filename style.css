@@ -38,6 +38,11 @@ body
     align-items: center;
 }
 
+.col-20
+{
+    width: 20%;
+}
+
 .col-25
 {
     width: 25%;
@@ -610,7 +615,7 @@ section Five starts here
 ---------------------------------------------
 */
 
-.sec-five
+.sec-five, .sec-six
 {
     background: radial-gradient(circle, rgba(0, 0, 0, 0.85) 10%, rgba(0, 0, 0, 0.85) 30%, rgba(0, 0, 0, 0.85) 50%), url("./images/Texture.png"); 
     background-repeat: no-repeat;
@@ -719,4 +724,111 @@ section Five starts here
 {
     bottom: 80px;
     right: 60px;
+}
+
+
+/* 
+---------------------------------------------
+section Five ends header
+---------------------------------------------
+
+
+---------------------------------------------
+section Six starts here 
+---------------------------------------------
+*/
+
+.sec-six
+{
+  /* see above sec-five */
+}
+
+.sec-six-main
+{
+    /* border: 1px solid red; */
+    position: relative;
+}
+
+.sec-six-imgBlk
+{
+    position: relative;
+    /* background-image: url('./images/sec-six-img-cropped.png');  */
+    padding: 30px;
+}
+
+
+.sec-six-img
+{
+    width: 100%;
+    transform: scale(0.9);
+    margin: 0 auto;
+    border: 15px solid #11f2ff;
+    border-top: 50%;
+
+}
+
+.playBtn
+{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 350px;
+    left: 550px;
+    text-align: center;
+    z-index: 5;
+}
+
+.playBtn i
+{
+    font-size: 30px;
+}
+
+.sec-six-textBlk
+{
+    position: absolute;
+    top: 0;
+    left:0;
+}
+
+.sec-six-textBlk h2
+{
+    /* border: 1px solid red;; */
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.bold
+{
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.liveBtn
+{
+    background-color:#ff3e3e;
+    padding: 0 10px;
+    position: relative;
+}
+
+.liveBtnDot
+{
+    font-size: 15px;
+    color:#ff3e3e;
+    position: absolute;
+    top: 20px;
+    right: -25px;
+}
+
+.playBtn
+{
+    background-color: #ffffff;
+    padding: 21px 25px;
+    border-radius: 50%;
+}
+
+.playBtnImg
+{
+    transform: scale(1.1);
 }
