@@ -751,21 +751,61 @@ section Six starts here
 
 .sec-six-imgBlk
 {
+    /* position: relative; */
+    /* border: 1px solid red; */
+}
+
+.sec-six-imgMain
+{
     position: relative;
-    /* background-image: url('./images/sec-six-img-cropped.png');  */
-    padding: 30px;
+    /* border: 5px solid yellow */
 }
 
 
 .sec-six-img
 {
     width: 100%;
-    transform: scale(0.9);
+    transform: scale(0.8);
     margin: 0 auto;
-    border: 15px solid #11f2ff;
-    border-top: 50%;
-
+    filter: grayscale(100%);
+    /* border: 1px solid red; */
 }
+
+.left-border, .right-border, .top-border, .bottom-border
+{
+    position: absolute;
+    border: 7px solid #11f2ff;
+}
+
+.left-border
+{   
+    height: 35%;
+    bottom: 62px;
+    left:100px;
+}
+
+.bottom-border
+{
+    width: 40%;
+    bottom: 62px;
+    left:100px;
+}
+
+.right-border
+{
+    height: 35%;
+    top: 62px;
+    right:100px;
+}
+
+
+.top-border
+{
+    width: 40%;
+    top: 62px;
+    right:100px;
+}
+
 
 .playBtn
 {
@@ -786,22 +826,22 @@ section Six starts here
 .sec-six-textBlk
 {
     position: absolute;
-    top: 0;
-    left:0;
+    top: 30px;
+    left:30px;
 }
 
 .sec-six-textBlk h2
 {
     /* border: 1px solid red;; */
     color: #ffffff;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 400;
     letter-spacing: 2px;
 }
 
 .bold
 {
-    font-size: 45px;
+    font-size: 40px;
     font-weight: 900;
 }
 
@@ -832,3 +872,11 @@ section Six starts here
 {
     transform: scale(1.1);
 }
+
+.upArrowWhite
+{
+    position: absolute;
+    top: 400px;
+    right: -20px;
+}
+
