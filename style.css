@@ -419,7 +419,8 @@ section three starts here
 .sec-three-rightBlk
 {
     margin: 100px 0 100px 0;
-    /* border: 1px solid blue; */
+    /* border: 1px solid red; */
+    /* padding: 10px 0; */
     background-color: #15f1ff;
 }
 
@@ -429,7 +430,7 @@ section three starts here
     width: 100%;
     /* border: 1px solid red; */
     margin: 0px 80px 0px 0;
-    padding: 70px 0;
+    padding: 71px 0;
     position: relative;
 }
 
@@ -438,14 +439,14 @@ section three starts here
     width: 100%; 
     /* border: 1px solid yellow; */
     padding: 100px 0;
-    margin: 100px 0px 50px 0;
+    margin: 100px 0px 40px 0;
 }
 
 .sec-three-img
 {
-    transform: scale(1);
+    transform: scale(1, 1.08);
     position: absolute;
-    bottom: -160px;
+    bottom: -161px;
     right: -65px;
 }
 
@@ -628,14 +629,15 @@ section Five starts here
 {
     /* border: 1px solid red; */
     padding: 100px 0;
+    
 }
 
 .sec-five-img
 {
     transform: scale(1);
     position: absolute;
-    bottom: -73px;
-    left: -150px;
+    bottom: 0px;
+    left: 0;
     z-index: 5;
 }
 
@@ -644,6 +646,7 @@ section Five starts here
     /* z-index: 5; */
     position: relative; 
 }
+
 
 .sec-five-titleBlk
 {
@@ -697,4 +700,23 @@ section Five starts here
 .blueBox2
 {
     padding: 40px 0;
+}
+
+
+.threeBarsL4, .rArrow4
+{
+    position: absolute;
+}
+
+.threeBarsL4
+{
+    transform: scale(0.9);
+    top: 330px;
+    left: 670px;
+}
+
+.rArrow4
+{
+    bottom: 80px;
+    right: 60px;
 }
