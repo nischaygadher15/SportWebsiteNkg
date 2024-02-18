@@ -100,7 +100,7 @@ header
 {
     width: 100%;
     padding: 0 50px;
-    
+    /* border: 1px solid red; */
 }
 
 nav
@@ -110,6 +110,7 @@ nav
     padding: 25px 0;
     position: relative;    
     z-index: 99;
+
 }
 
 .nav-list
@@ -192,7 +193,7 @@ nav
 
 .bottomPart
 {
-    position: relative;
+    position: relative; 
     width: 100%;
     background-color: #11f2ff;
     padding: 25px 0 20px 0;
@@ -284,11 +285,17 @@ nav
     top: 200px;
     right: 50px;
 }
-/* 
+/*
+---------------------------------------------
 section one ends header
+---------------------------------------------
 
+
+---------------------------------------------
 section two starts here 
+---------------------------------------------
 */
+
 
 .sec-two
 {
@@ -402,10 +409,15 @@ section two starts here
     right: 600px;
 }
 
-/* 
+/*
+---------------------------------------------
 section two ends header
+---------------------------------------------
 
+
+---------------------------------------------
 section three starts here 
+---------------------------------------------
 */
 
 .sec-three
@@ -1073,12 +1085,12 @@ section Footer starts here
 footer
 {
     background-color:#11f2ff;
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 .footer-main
 {
-    padding: 50px 0 0 0;
+    padding: 50px 0;
 }
 
 
@@ -1157,5 +1169,184 @@ address
 {
     width: 50%;
     font-size: 22px;
+}
+
+/*
+---------------------------------------------
+section Footer ends here 
+---------------------------------------------
+*/
+
+
+/*
+---------------------------------------------
+section Media Queries starts here 
+---------------------------------------------
+*/
+
+
+@media(min-width: 992px)
+{
+    .container
+    {
+        width: 990px;
+        margin: 0 auto;
+        padding: 0 50px;
+    }
+    nav
+    {
+        padding: 20px 0;
+    }
+
+    .nav-list li
+    {
+        padding: 0 30px;
+    }
+
+
+    .signIn
+    {
+        margin: 50px auto;
+    }
+
+    .sec-one-img1
+    {
+        transform: scale(1, 1.35);
+        top:103px;
+    }
+
+    .text2
+    {
+        width: 50%;
+    }
+
+
+    .sec-two-img
+    {
+        transform:scale(0.8);
+        left: -188px;
+    }
+
+    .sec-two-main
+    {
+        padding: 0;
+    }
+
+    .sec-three-img
+    {
+        transform: scale(0.8, 1);
+        bottom: -170px;
+        right: -150px;
+        padding-bottom: 100px;
+        /* display: none; */
+    }
+
+    .sec-three-rightBlk
+    {
+        width: 60%;
+        background-color: transparent;
+        padding: 100px  0;
+    }
+
+    .sec-three-imgBlk
+    {
+        /* border: 1px solid red; */
+        background-color: #11f2ff;
+        padding: 100px;
+        margin: 100px 50px 0px 0px ;    
+        position: relative;
+        top: -50px;
+        right: -90px;
+    }
+    .sec-three-rect
+    {
+        padding: 100px 0;
+        /* margin-top: 100px; */
+    }
+
+    .threeBarsL2
+    {
+        transform: scale(0.8);
+        top:  290px;
+        left: 470px;
+    }
+
+    .sec-four-imgBlk
+    {
+        padding: 0;
+    }
+
+    .sec-five-img
+    {
+        transform: scale(0.8);
+        bottom: -82px;
+        left: -70px;
+    }
+
+    .sec-five-col
+    {
+        width: 38%;
+    }
+
+    .threeBarsL4
+    {
+        transform: scale(0.8);
+        top: 500px;
+        left: 500px;
+    }
+
+    .sec-five-title
+    {
+        margin: 0;
+        width: 110%;    
+        font-size: 40px;
+    }
+
+    .blueBox
+    {
+        margin: 80px 0 0 0 ;
+    }
+
+
+    .playBtn
+    {
+        top: 252px;
+        left: 400px;
+    }
+
+    .left-border
+    {   
+        bottom: 46px;
+        left:76px;
+    }
+
+    .bottom-border
+    {
+        bottom: 46px;
+        left:89px;
+    }
+
+    .right-border
+    {
+        top: 56px;
+        right:75px;
+    }
+    
+    .top-border
+    {
+        width: 40%;
+        top: 42px;
+        right:75px;
+    }
+
+    .sec-six-textBlk {
+        top: 11px;
+        left: -6px;
+    }
+
+    .socialMedia {
+        width: 36%;
+        align-items: center;
+    }
 }
 
