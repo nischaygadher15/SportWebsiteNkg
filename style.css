@@ -253,9 +253,9 @@ nav
 {
     width: 100%;
     position: absolute;
-    top: 65px;
+    top: 26px;
     left: 0;
-    transform: scale(1.1, 1.21);
+    transform: scale(1.1);
     z-index: 1;
     /* display: none; */
 }
@@ -621,7 +621,7 @@ section Five starts here
 ---------------------------------------------
 */
 
-.sec-five, .sec-six, .sec-seven
+.sec-five, .sec-six, .sec-seven, .sec-eight
 {
     background: radial-gradient(circle, rgba(0, 0, 0, 0.85) 10%, rgba(0, 0, 0, 0.85) 30%, rgba(0, 0, 0, 0.85) 50%), url("./images/Texture.png"); 
     background-repeat: no-repeat;
@@ -880,15 +880,19 @@ section Six starts here
 
 /* 
 ---------------------------------------------
-section Five ends header
+section Six ends header
 ---------------------------------------------
 
 
 ---------------------------------------------
-section Six starts here 
+section Seven starts here 
 ---------------------------------------------
 */
 
+.sec-seven-main
+{
+    position: relative;
+}
 
 .sec-seven-title
 {
@@ -907,7 +911,7 @@ section Six starts here
 .sec-seven-tile
 {
     background-color: #ffffff;
-    padding: 15px;
+    padding: 15px   ;
 }
 
 .sec-seven-img-wrapper1
@@ -979,4 +983,153 @@ section Six starts here
 }
 
 
+.rArrow5
+{
+    position: absolute;
+    bottom: -150px;
+    left: 500px;
+}
+
+/* 
+---------------------------------------------
+section Seven ends header
+---------------------------------------------
+
+
+---------------------------------------------
+section Eight starts here 
+---------------------------------------------
+*/
+
+
+.sec-eight
+{
+    padding: 100px 0 50px 0;
+}
+
+.sec-eight-main
+{
+    padding: 0 50px;
+}
+
+
+.sec-eight-title, #name, #mail, #msgText, #sendBtn 
+{
+    display: block;
+}
+
+.sec-eight-title
+{
+    color: #ffffff;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 900;
+}
+
+.redScrb
+{
+    background-color:#ff3e3e;
+    padding: 0 15px;
+}
+
+form
+{
+    margin: 50px 0 0 0;
+    padding: 0 50px; 
+}
+
+#name, #mail, #msgText
+{
+    width: 100%;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 30px 0;
+}
+
+
+#sendBtn
+{
+    margin: 60px auto;  
+    padding: 10px 25px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color:#11f2ff;
+    border: none;
+}
+
+/* 
+---------------------------------------------
+section Eight ends header
+---------------------------------------------
+
+
+---------------------------------------------
+section Footer starts here 
+---------------------------------------------
+*/
+
+footer
+{
+    background-color:#11f2ff;
+    padding: 100px 0;
+}
+
+.footer-main
+{
+    padding: 100px 0;
+}
+
+
+.ftList
+{
+    list-style-type: none;
+}
+
+.ftTitle
+{
+    display:inline-block ;
+    margin: 10px 0;
+}
+
+.ftList-title
+{
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.whiteBorder    
+{
+    width: 110%;
+    background-color: #ffffff;
+    padding: 10px;
+    margin: -20px 0 0 -18px;
+}
+
+.whiteBorder:nth-of-type(1)
+{
+    margin: -20px 0 0 -12px !important;
+}
+
+.ftList li
+{
+    margin: 15px 0;
+}
+
+.ftList li a
+{
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+address
+{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 35px;
+    margin: 10px 0;
+}
 
