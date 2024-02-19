@@ -1185,6 +1185,54 @@ section Media Queries starts here
 */
 
 
+@media(min-width:768px)
+{
+    .container
+    {
+        width: 760px;
+        padding: 0 50px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    header
+    {
+        padding: 0 25px;
+    }
+
+    .nav-list li
+    {
+        padding: 0 15px;
+    }    
+    
+    .nav-list li:nth-child(1)
+    {
+        padding: 0 15px;
+    }
+
+    .text2
+    {
+        width: 60%;
+    }
+
+    .sec-one-img1
+    {
+        /* display: none; */
+        transform: scale(1, 1.75);
+        top: 178px;
+    }
+
+    .signIn
+    {
+        margin: 70px auto;
+    }
+
+    .sec-one-img2
+    {
+        left: 29px;
+    }
+}
+
 @media(min-width: 992px)
 {
     .container
