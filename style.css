@@ -1192,7 +1192,7 @@ section Media Queries starts here
         width: 760px;
         padding: 0 50px;
         margin: 0 auto;
-        overflow: hidden;
+        /* overflow: hidden; */
     }
 
     header
@@ -1231,7 +1231,183 @@ section Media Queries starts here
     {
         left: 29px;
     }
+
+
+    .sec-two-main
+    {
+        padding: 0;
+    }
+
+    .sec-two-content
+    {
+        padding: 50px 0;
+    }
+
+    .sec-two-img
+    {
+        /* border: 1px solid red; */
+        transform: scale(0.6, 1.2);
+        top: 194px;
+        left: -247px;
+    }
+
+    .lArrow1
+    {
+        right: 633px;
+    }
+
+    .sec-three
+    {
+        padding: 0;
+    }
+
+    .sec-three-img 
+    {
+        transform: scale(0.6, 1.1);
+        bottom: -35px;
+        right: -207px;
+    }
+
+
+    .sec-three-rightBlk 
+    {
+        width: 65%;
+        background-color: transparent;
+        padding: 100px 0;
+        margin: 50px 0 0 0;
+    }
+
+    .sec-three-imgBlk 
+    {
+        padding: 100px 0;
+        margin: 60px 0px 0px 70px;
+        border: 1px solid red;
+        background-color:#11f2ff;
+    }
+
+    .sec-three-rect
+    {
+        margin: 100px 0;
+    }
+
+    .threeBarsL2 {
+        top: 248px;
+        left: 311px;
+        transform: scale(0.8);
+    }
+
+    .rArrow2
+    {
+        left: 70px;
+    }
+    
+
+    .sec-four
+    {
+        padding: 50px 0;
+    }
+
+    .sec-four-imgBlk 
+    {
+        padding: 0;
+    }
+
+    .sec-four-img1 
+    {
+        bottom: 51px;
+        left: -16px;
+        transform: scale(1.4, 1.62);
+    }
+
+    .sec-four-img2 
+    {
+        bottom: 37px;
+        right: 16px;
+        transform: scale(1.5);
+    }
+
+    .threeBarsR3 
+    {
+        right: 28px;
+    }
+
+    .threeBarsL3 
+    {
+        left: 28px;
+    }
+
+
+    .sec-five
+    {
+        padding: 0;
+    }
+
+    .blueBox2 {
+        padding: 80px 0;
+    }
+
+    .sec-five-img
+    {
+        transform: scale(0.6, 1.1);
+        bottom: 39px;
+        left: -137px;
+    }
+
+    .threeBarsL4 {
+        transform: scale(0.7);
+        top: 330px;
+        left: 377px;
+    }
+
+
+    .sec-six-img
+    {
+        transform: scale(1);
+    }
+
+    .playBtn
+    {
+        top: 185px;
+        left: 290px;
+    }
+
+    .sec-six-textBlk 
+    {
+        top: -37px;
+        left: -30px;
+    }
+
+    .top-border
+    {
+        top: -15px;
+        right: -15px;
+    }
+
+    .right-border 
+    {
+        top: -1px;
+        right: -15px;
+    }
+
+    .left-border 
+    {
+        bottom: -10px;
+        left: -15px;
+    }
+
+    .bottom-border 
+    {
+        bottom: -10px;
+        left: -1px;
+    }
+
+    .upArrowWhite 
+    {
+        top: 200px;
+        right: -47px;
+    }
 }
+
 
 @media(min-width: 992px)
 {
